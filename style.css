@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #222222 !important;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+}
+
+#date_info {
+    text-align: center;
+    color: white !important;
+}
+
+#menu {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#error-message {
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 32%;
+    font-size: 14px;
+}
+
+#previous {
+    float: left;
+    margin-left: 2%;
+}
+
+#next {
+    float: right;
+    margin-right: 2%;
+}
